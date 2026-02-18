@@ -18,6 +18,7 @@ class BaseNumberGenerator:
         self.limits = (1, 10)
 
     def get_number(self, min_max):
+        breakpoint()
         raise NotImplemented
 
     def smethod():

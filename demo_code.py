@@ -119,6 +119,10 @@ def chained_comparison():
     return a < b and b < c
 
 
+def comp(a, b, c):
+    return a < b and b < c
+
+
 if __name__ == "__main__":
     args = ["--disable", "all"]
     for i in range(len(args)):
